@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Imóveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Venda de Imóveis</h1>
+        <nav>
+            <ul>
+                <li><a href="#listagem">Imóveis</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="listagem" class="imoveis">
+        
+        <div class="imovel" data-id="1">
+            <img src="https://th.bing.com/th/id/OIP.P9cOh-5oLrCjmfgxP0YRuQHaE6?rs=1&pid=ImgDetMain" alt="Imóvel 1">
+            <h3>Casa no Centro</h3>
+            <p>R$ 500.000,00</p>
+            <button onclick="verDetalhes(1)">Ver Detalhes</button>
+        </div>
+        <div class="imovel" data-id="2">
+            <img src="https://th.bing.com/th/id/R.a09f5118f97593a9c945df81d63b239e?rik=ImtYQXq3rsFZ9Q&pid=ImgRaw&r=0" alt="Imóvel 2">
+            <h3>Casa em Condominio</h3>
+            <p>R$ 800.000,00</p>
+            <button onclick="verDetalhes(2)">Ver Detalhes</button>
+        </div>
+        <div class="imovel" data-id="3">
+            <img src="https://th.bing.com/th/id/OIP.UoSS5hyGtUrZmkTRVKBTBwHaE8?rs=1&pid=ImgDetMain" alt="Imóvel 3">
+            <h3>Chácara com Piscina</h3>
+            <p>R$ 1.200.000,00</p>
+            <button onclick="verDetalhes(3)">Ver Detalhes</button>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h3>Caso houver interesse entrar em contato com</h3>
+        <p>Email: nicolas.tiradentes@imoveis.com</p>
+        <p>Telefone: (44) 999877187</p>
+    </section>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
